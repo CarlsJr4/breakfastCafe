@@ -32,14 +32,6 @@ p {
   background-color: #D5B26D;
 }
 
-.info {
-  padding: 1rem;
-  margin: 2rem 3rem;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
 body {
   margin: 0;
 }
@@ -71,6 +63,13 @@ main {
   margin: 0;
 }
 
+.info {
+  padding: 1rem;
+  margin: 2rem 3rem;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 .info img {
   width: 100%;
 }
