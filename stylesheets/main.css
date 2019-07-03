@@ -50,6 +50,12 @@ main {
   background-color: #EBE3D0;
 }
 
+#logo {
+  width: 100px;
+  position: absolute;
+  z-index: -1;
+}
+
 .hero {
   position: relative;
 }
