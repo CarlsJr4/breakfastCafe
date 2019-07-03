@@ -19,7 +19,6 @@ main {
 // Sections
 .hero {
 	position: relative;
-	
 	& img {
 		width: 100%;
 	}
@@ -29,10 +28,14 @@ main {
 	position: absolute;
 	top: 35%;
 	margin-left: 3rem;
-
 	& h1, p { // The caption within the image
 		margin: 0;
 	}
+}
+
+.info img {
+	width: 100%;
+	// height: 50%;
 }
 
 @media screen and (max-width: 600px) {
