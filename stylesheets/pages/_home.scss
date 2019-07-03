@@ -52,6 +52,33 @@ main {
 	}
 }
 
+.menu {
+	padding: $base-padding;
+	background-image: url("../Images/Red_Pancakes.jpeg");
+	& > h1, .menu__container {
+		margin: $base-margin;
+	}
+}
+
+.menu__container {
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.menu__items {
+	@include shadow-effect;
+	padding: $base-padding;
+	background-color: $section-dark;
+	& > h3 {
+		text-transform: uppercase;
+	}
+}
+
+.menu__items > h1 {
+	color: $section-main;
+}
+
 @media screen and (max-width: 600px) {
 	.hero img {
 		height: 85vh;
