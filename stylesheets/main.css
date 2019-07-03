@@ -50,7 +50,11 @@ main {
 
 .hero__caption {
   position: absolute;
-  top: 50%;
+  top: 35%;
+  margin-left: 3rem;
+}
+.hero__caption h1, .hero__caption p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

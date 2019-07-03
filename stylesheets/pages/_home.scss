@@ -19,14 +19,18 @@ main {
 // Sections
 .hero {
 	position: relative;
-
+	
 	& img {
 		width: 100%;
 	}
-	
 }
 
-.hero__caption {
+.hero__caption { // The hero image caption as a whole
 	position: absolute;
-	top: 50%;
+	top: 35%;
+	margin-left: 3rem;
+
+	& h1, p { // The caption within the image
+		margin: 0;
+	}
 }
