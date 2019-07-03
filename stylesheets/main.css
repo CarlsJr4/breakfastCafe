@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Karla|Yellowtail&display=swap");
+h1, h2 {
+  font-family: "Yellowtail", cursive;
+  color: white;
+}
 
+h3 {
+  font-family: "Karla", sans-serif;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
 
 /*# sourceMappingURL=main.css.map */
