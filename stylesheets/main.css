@@ -44,7 +44,6 @@ header {
 
 main {
   background-color: #EBE3D0;
-  height: 100rem;
 }
 
 .hero {
@@ -72,6 +71,14 @@ main {
 }
 .info img {
   width: 100%;
+}
+
+.promise {
+  background-color: #D5B26D;
+  padding: 1rem;
+}
+.promise h1, .promise p {
+  margin: 2rem 3rem;
 }
 
 @media screen and (max-width: 600px) {
