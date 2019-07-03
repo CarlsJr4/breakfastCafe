@@ -72,6 +72,10 @@ main {
 	background-color: $section-dark;
 	& > h3 {
 		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+	& > p {
+		margin-top: 0.5rem;
 	}
 }
 
