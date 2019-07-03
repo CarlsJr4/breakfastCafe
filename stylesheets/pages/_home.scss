@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main {
+	background-color: $section-main;
+	height: 100rem;
+}

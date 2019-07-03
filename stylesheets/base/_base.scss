@@ -1,0 +1,8 @@
+.header-box {
+	@include shadow-effect;
+	background-color: $box-heading-color;
+	max-width: 30%;
+	padding: $base-padding;
+	margin: $base-margin;
+	color: $section-main;
+}
