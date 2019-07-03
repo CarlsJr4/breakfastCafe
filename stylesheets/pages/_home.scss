@@ -1,3 +1,5 @@
+// Styling for specific sections of the home page
+
 body {
 	margin: 0;
 }
@@ -11,4 +13,20 @@ header {
 main {
 	background-color: $section-main;
 	height: 100rem;
+}
+
+
+// Sections
+.hero {
+	position: relative;
+
+	& img {
+		width: 100%;
+	}
+	
+}
+
+.hero__caption {
+	position: absolute;
+	top: 50%;
 }
