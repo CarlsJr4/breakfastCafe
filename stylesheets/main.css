@@ -41,9 +41,14 @@ body {
 }
 
 header {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #EBE3D0;
+}
+header > h1 {
+  z-index: 1;
 }
 
 main {
@@ -53,7 +58,6 @@ main {
 #logo {
   width: 100px;
   position: absolute;
-  z-index: -1;
 }
 
 .hero {
