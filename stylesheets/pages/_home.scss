@@ -26,6 +26,8 @@ main {
 
 
 // Sections
+
+// "Jumbotron"
 .hero {
 	position: relative;
 	& img {
@@ -42,6 +44,7 @@ main {
 	}
 }
 
+// Information
 .info {
 	padding: $base-padding;
 	margin: $base-margin;
@@ -53,6 +56,7 @@ main {
 	}
 }
 
+// Our Promise
 .promise {
 	background-color: $section-dark;
 	padding: $base-padding;
@@ -62,6 +66,7 @@ main {
 	}
 }
 
+// Menu
 .menu {
 	padding: $base-padding;
 	background-image: url("../Images/Red_Pancakes.jpeg");
@@ -91,6 +96,18 @@ main {
 
 .menu__items > h1 {
 	color: $section-main;
+}
+
+// Photo Gallery
+.photo-gallery {
+	margin: $base-margin;
+	display: grid;
+	grid-gap: $base-padding;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	& img {
+		@include shadow-effect;
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {
