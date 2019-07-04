@@ -116,6 +116,9 @@ header {
 
 	.info {
 		margin: 0;
+		& img {
+			padding: 0;
+		}
 	}
 
 	.promise {
