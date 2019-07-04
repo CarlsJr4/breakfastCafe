@@ -90,6 +90,8 @@ header > h1 {
 }
 .info img {
   width: 100%;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 #info-header {

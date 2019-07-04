@@ -1,5 +1,4 @@
 // Header and logo
-
 header {
 	padding: $base-padding;
 	display: flex;
@@ -42,6 +41,8 @@ header {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	& img {
 		width: 100%;
+		max-height: 500px;
+		object-fit: cover;
 	}
 }
 
