@@ -131,6 +131,17 @@ header > h1 {
   padding: 1rem;
   background-color: #D5B26D;
 }
+.menu__items > h1 {
+  position: relative;
+}
+.menu__items > h1::after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px dotted #EBE3D0;
+  width: 50%;
+  bottom: -0.5rem;
+  left: 0;
+}
 .menu__items > h3 {
   text-transform: uppercase;
   margin-bottom: 0;

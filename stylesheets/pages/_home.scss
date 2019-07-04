@@ -80,6 +80,17 @@ header {
 	@include shadow-effect;
 	padding: $base-padding;
 	background-color: $section-dark;
+	& > h1 {
+		position: relative;
+		&::after {
+			content: "";
+			position: absolute;
+			border-bottom: 3px dotted $section-main;
+			width: 50%;
+			bottom: -0.5rem;
+			left: 0;
+		}
+	}
 	& > h3 {
 		text-transform: uppercase;
 		margin-bottom: 0;
