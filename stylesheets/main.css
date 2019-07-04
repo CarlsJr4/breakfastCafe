@@ -92,6 +92,10 @@ main {
   width: 100%;
 }
 
+#info-header {
+  max-width: 72%;
+}
+
 .promise {
   background-color: #D5B26D;
   padding: 1rem;
