@@ -1,8 +1,4 @@
-// Styling for specific sections of the home page
-
-body {
-	margin: 0;
-}
+// Header and logo
 
 header {
 	padding: $base-padding;
@@ -15,17 +11,10 @@ header {
 	}
 }
 
-main {
-	background-color: $section-main;
-}
-
 #logo {
 	width: 100px;
 	position: absolute;
 }
-
-
-// Sections
 
 // "Jumbotron"
 .hero {

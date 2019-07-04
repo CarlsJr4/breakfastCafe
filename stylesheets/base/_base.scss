@@ -1,4 +1,12 @@
-// CSS for reusable elements across the website
+// CSS for reusable elements across the website and styling base HTML 
+
+body {
+	margin: 0;
+}
+
+main {
+	background-color: $section-main;
+}
 
 .header-box {
 	@include shadow-effect;
