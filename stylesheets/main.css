@@ -36,6 +36,11 @@ p {
   background-color: #D5B26D;
 }
 
+@media screen and (max-width: 600px) {
+  .header-box {
+    max-width: 50%;
+  }
+}
 body {
   margin: 0;
 }
@@ -141,6 +146,24 @@ main {
   .hero img {
     height: 85vh;
     object-fit: cover;
+  }
+
+  .info {
+    margin: 0;
+  }
+
+  .promise {
+    padding: 1rem;
+  }
+  .promise h1, .promise p {
+    margin: 0;
+  }
+  .promise p {
+    padding: 2rem 0;
+  }
+
+  .menu > h1, .menu .menu__container, .menu .photo-gallery {
+    margin: 1rem 0;
   }
 }
 

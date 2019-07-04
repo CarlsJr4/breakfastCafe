@@ -22,3 +22,10 @@
 	padding: 1rem;
 	background-color: $photo-frame-color;
 }
+
+
+@media screen and (max-width: 600px) {
+	.header-box {
+		max-width: 50%;
+	}
+}

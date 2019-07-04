@@ -115,4 +115,24 @@ main {
 		height: 85vh;
 		object-fit: cover;
 	}
+
+	.info {
+		margin: 0;
+	}
+
+	.promise {
+		padding: 1rem;
+		& h1, p {
+			margin: 0;
+		}
+		& p {
+			padding: 2rem 0;
+		}
+	}
+
+	.menu {
+		& > h1, .menu__container, .photo-gallery {
+			margin: 1rem 0;
+		}
+	}
 }
