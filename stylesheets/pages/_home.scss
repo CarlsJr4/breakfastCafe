@@ -64,6 +64,7 @@ header {
 .menu {
 	padding: $base-padding;
 	background-image: url("../Images/Red_Pancakes.jpeg");
+	background-attachment: fixed;
 	& > h1, .menu__container {
 		margin: $base-margin;
 	}

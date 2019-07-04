@@ -114,6 +114,7 @@ header > h1 {
 .menu {
   padding: 1rem;
   background-image: url("../Images/Red_Pancakes.jpeg");
+  background-attachment: fixed;
 }
 .menu > h1, .menu .menu__container {
   margin: 2rem 3rem;
