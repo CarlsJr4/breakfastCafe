@@ -8,6 +8,33 @@ main {
 	background-color: $section-main;
 }
 
+// Font awesome social media icons
+.fab {
+	font-size: 1.8rem;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+.fa-yelp {
+	color: #c41200;
+}
+
+.fa-facebook-square {
+	color: #3b5998
+}
+
+.fa-instagram {
+	color: black;
+}
+
+.socials {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	width: 20%;
+}
+
 .header-box {
 	@include shadow-effect;
 	background-color: $box-heading-color;
